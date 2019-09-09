@@ -1,4 +1,5 @@
 spring:
+  #  应用服务的名称
   application:
     name: consumer-user
 server:

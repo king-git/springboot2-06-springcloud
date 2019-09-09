@@ -1,5 +1,6 @@
 server:
   port: 8001
+#  应用服务的名称
 spring:
   application:
     name: provider-ticket
@@ -8,7 +9,7 @@ eureka:
   instance:
 # 注册服务的时候使用服务的ip地址
     prefer-ip-address: true
-
+#注册中心的客户端地址
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
